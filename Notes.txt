@@ -1,0 +1,55 @@
+15th Dec 2025
+=============
+
+    -> AWS - Amazon Web Services 
+
+        -> Cloud Computing 
+
+            -> Application has data 
+
+                -> Data is in server (database,web, file storage etc )
+
+                    -> Server 
+
+                        -> Server is an machine where, Applications run 
+
+                        -> Server is a computer system, that takes a request
+                            and sends response 
+
+                    -> Where is this Server ? 
+
+                        -> Servers are hosted in Datacenters 
+
+    -> Data Center 
+
+        -> A data center is a building, a dedicated space within a building, 
+        or a group of buildings used to house computer systems and 
+        associated components, such as telecommunications and storage systems.
+
+    -> Physical Data Centers are Expensive & Hard To Maintain 
+
+    -> Cloud Computing
+    
+        -> ‘The Cloud’ can also refer to Cloud computing is the 
+        "on-demand" availability of compute power, database storage, 
+        applications, and other IT resources through a cloud services platform 
+        (AWS/AZURE/GCP/Oracle etc) via the "internet" with "pay-as-you-go" pricing.
+
+        -> Cloud Computing is comparable to Online Ride Services 
+
+    -> Cloud Offerings
+
+        -> Infrastructure As A Service - IAAS 
+
+            -> Hardware (2 cpu - 4 GB ram - 500 GB SSD)
+
+        -> Platform As A Service - PAAS 
+
+            -> Database Platform (MySQL Database, NoSQL Database, Java Application Platform)
+
+        -> Software As A Service - SAAS 
+
+            -> Direct Softwares (subscribe and pay)
+
+        -> NOTE: Compare them to Online Ride Services like 
+                    Uber: Bikes, Cars, Autos etc
