@@ -53,3 +53,89 @@
 
         -> NOTE: Compare them to Online Ride Services like 
                     Uber: Bikes, Cars, Autos etc
+
+
+16th Dec 2025
+=============
+
+    -> Traditional Approach (Setting Up Application Infrastructure On Physical Datacenters)
+
+        -> Amazon Ecommerce Application 
+
+            -> Servers 
+                +
+            -> Storage 
+                +
+            -> Databases 
+                +
+            -> Networking 
+                +
+            -> Security 
+                +
+            -> etc 
+
+    -> New Approach (Setting Up Application Infrastructure On Cloud Datacenters (AWS))
+
+        -> Amazon Ecommerce Application 
+
+            -> Servers      -   AWS EC2
+                +                  +
+            -> Storage      -   AWS S3 
+                +                  +
+            -> Databases    -   AWS RDS        ======>    Application
+                +                  +
+            -> Networking   -   AWS VPC 
+                +                  +
+            -> Security     -   AWS IAM
+                +                  +
+            -> etc          -   AWS etc 
+
+
+    -> Application should have following characteristics (Four Pillars Of Cloud)
+
+        -> Highly Available 
+
+            -> High availability in AWS ensures that applications are 
+                continuously accessible and operational
+
+        -> Fault Tolerant 
+
+            -> Fault tolerance in AWS refers to the ability of a system to 
+                continue operating without interruption in the face of hardware failures
+
+        -> Secured 
+
+            -> Security in AWS refers to the measures taken to protect cloud resources, 
+                data, and applications from unauthorized access.
+
+        -> Scalable  
+
+            -> Scalability in AWS refers to the ability of a system to handle 
+                increasing workloads and accommodate growing demands. 
+
+
+    -> Infrastructure As A Service - IAAS 
+
+        -> AWS Global Infrastructure 
+
+            -> Amazon Cloud Computing resources (servers, storage, databases etc) 
+            are available across the world. 
+            In simple terms if we see this https://aws.amazon.com/about-aws/global-infrastructure/ 
+            then Amazon Data Centers are available in different geographical locations.
+
+        -> In terms of AWS, infrastructure is made up of 
+
+            -> Regions 
+
+            -> Availability Zones 
+
+            -> Edge locations
+
+        -> Regions
+
+            -> Regions are designed to service AWS customers (or your users) 
+                that are located closest to a region.
+
+            -> Availability of Services are different for different AWS Regions.
+
+            -> Price varies from region to region
