@@ -139,3 +139,39 @@
             -> Availability of Services are different for different AWS Regions.
 
             -> Price varies from region to region
+
+17th Dec 2025
+=============
+
+    -> Availability zone (AZ)
+
+        -> Availability zone is where the actual data centers are located
+
+        -> Within a Region, there can be multiple Availability zones
+
+        -> Each AZ has independent Power Supply, Networking, Cooling System, Physical Security.
+
+        -> https://www.researchgate.net/profile/Ivan_Beres/publication/360541079/figure/fig1/AS:1154856056291328@1652350548135/AWS-Regions-and-Availability-Zones-Scott-nd.ppm
+
+    
+    -> Edge locations
+
+        -> An AWS Edge Location is a data center in the AWS global network used by services 
+        like CloudFront, Global Accelerator, and Lambda@Edge to store cached content 
+        (images, videos) and process requests closer to end-users, 
+        drastically reducing latency by serving data from the nearest point of presence(pop) 
+        rather than a distant main AWS Region. 
+        They act as caching warehouses, improving performance for websites.
+
+    -> VPC (Virtual Private Cloud)
+
+        -> A Virtual Private Cloud is a secure, isolated private cloud hosted 
+        within a public cloud. 
+
+        -> VPC customers can run code, store data, host websites & applications in isolated mode
+
+        -> NOTE: Having VPC is similar to having your own data center inside AWS. 
+
+        -> VPC is a service that lets customers(IBM) provision a logically isolated 
+        section of the AWS Cloud where you can launch AWS resources(Servers) 
+        in a VIRTUAL NETWORK that you define.
