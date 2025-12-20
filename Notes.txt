@@ -219,3 +219,49 @@
         ensure that instance has a public IP address, 
         and ensure that your network access control and security group rules 
         allow the relevant traffic to your instance" -- AWS
+
+0th Dec 2025
+=============
+
+    -> VPC Workflow & Components Demo
+
+        -> Detach Internet Gateway 
+
+            -> Proceeding with this action will detach the internet gateway from VPC. 
+            If you detach the internet gateway, resources in the VPC 
+            cannot communicate with the internet. 
+        
+        -> Attach Internet Gateway 
+
+            -> Attach an internet gateway to a VPC to enable the VPC to communicate with the internet. 
+
+        -> Route Table & Subnet 
+
+            -> RT connects to subnet and shows the network path 
+
+            -> Inside RT We have routes 
+
+                -> local - within vpc 
+                -> internet route - outside vpc (removed)
+
+                -> Adding back a proper route i.e internet route, will fix issue 
+
+        -> NACL - Network Access Control List 
+
+            -> Firewall on Subnet Level, allows all traffic 
+
+            -> Let's modify NACL to block all traffic and verify connectivity 
+
+                -> Select Instance -> Select Subnet -> Select NACL 
+
+        -> Security Group 
+
+            -> Firewall on Instance / Server Level
+
+            -> Let's modify Security Group to block traffic 
+
+            -> Select Instance -> Select Security -> Select Security group 
+
+            -> Delete SSH Rule (This security group has no inbound rules)
+
+            -> Add SSH Rule back and test connectivity
