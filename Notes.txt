@@ -285,7 +285,10 @@
         
         https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites
 
-    Requirement Given by EDIFY
+23rd Dec 2025
+=============
+
+    -> Requirement Given by EDIFY
 
 	> Edify is going to setup the LMS App environment i.e servers on AWS, 
         their clients are from XYZ (REGION) Location
@@ -319,3 +322,22 @@
 		> Postgres Database Traffic Allowed from App Servers
 
 
+    -> Earlier we had our infrastructure setup using Graphical User Interface (GUI) (Beginner) 
+
+        -> Created Edify VPC(web, backend, database) using GUI took 45 mins 
+        -> New Req: TCS VPC(web, backend, database) using GUI took 45 mins 
+        -> New Req: ACC VPC(web, backend, database) using GUI took 45 mins 
+
+    -> We can also setup infrastructure using Command Line Interface (CLI) (Intermediate)
+
+        -> Created Edify VPC(web, backend, database) using CLI took 45 mins
+        -> New Req: TCS VPC(web, backend, database) using CLI took 15 mins 
+        -> New Req: ACC VPC(web, backend, database) using CLI took 15 mins 
+
+    -> We can also setup infrastructure using Code (SCRIPTS) (ultimate) (Pro)
+
+        -> Created Edify VPC(web, backend, database) using Code took 45 mins
+        -> New Req: TCS VPC(web, backend, database) using Code took 2 mins 
+        -> New Req: ACC VPC(web, backend, database) using Code took 2 mins
+
+        
